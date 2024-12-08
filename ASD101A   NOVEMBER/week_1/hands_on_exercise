@@ -1,0 +1,19 @@
+# 1. Personal Information
+# Write a program that displays the following information:
+# Your name
+# Your address, with city, state and zip
+# your telephone number
+# your college major
+
+name = "William Titus"
+street = "429 Jackson st. apt. 2"
+city = "Rochester"
+state = "Pa"
+zip = "15074"
+cell = "724-544-6494"
+major = "Advanced software develepment"
+print(f"Name: {name}")
+print(f"Address: {street}, {city}, {state}, {zip}")
+print(f"Cell number: {cell}")
+print(f"Major {major}")
+
